@@ -10,9 +10,9 @@ pip install feltpy
 ```
 
 This package only requires a few packages, most of which come with a default installation of Python, namely:
-- requests
 - re
 - os
+- [requests](https://github.com/psf/requests)
 - [geopandas](https://github.com/geopandas/geopandas)
 
 I've only tested this on Python 3.10, but it will presumably work with older version of Python 3!
