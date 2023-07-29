@@ -13,7 +13,9 @@ This package only requires a few packages, most of which come with a default ins
 - requests
 - re
 - os
-- [https://github.com/geopandas/geopandas](https://github.com/geopandas/geopandas)
+- [geopandas](https://github.com/geopandas/geopandas)
+
+I've only tested this on Python 3.10, but it will presumably work with older version of Python 3!
 
 ### Set-Up
 
