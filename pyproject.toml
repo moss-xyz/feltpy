@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "feltpy"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="David Moss", email="davidmoss1221@gmail.com" },
 ]
@@ -18,8 +18,6 @@ classifiers = [
 ]
 dependencies = [
     "requests",
-    "re",
-    "os",
     "geopandas"
 ]
 
