@@ -9,6 +9,11 @@ This package is available in PyPI, and can be installed like so:
 pip install feltpy
 ```
 
+Once installed, import the package with
+```python
+import feltpy
+```
+
 This package only requires a few packages, most of which come with a default installation of Python, namely:
 - re
 - os
