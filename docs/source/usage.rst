@@ -6,29 +6,17 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use feltpy, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install feltpy
 
-Creating recipes
+API Access
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+All functions in this package are only set up, currently, 
+to work with Felt's Personal Access Tokens, 
+which must be acquired ahead of time. 
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+More information on doing so can be found on Felt's API documentation.
