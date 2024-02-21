@@ -428,11 +428,11 @@ class Map:
         self.url = url
     # Methods to perform map-based actions (get info, delete)
     def getMapElements(self, pat):
-        getMapElements(pat, self.id)
+        return getMapElements(pat, self.id)
     def getMapComments(self, pat):
-        getMapComments(pat, self.id)
+        return getMapComments(pat, self.id)
     def getMapLayers(self, pat):
-        getLayers(pat, self.id)
+        return getLayers(pat, self.id)
     def deleteMap(self, pat):
         deleteMap(pat, self.id)
 
@@ -528,9 +528,9 @@ class Layer:
     
     # Methods to perform Layer actions (patch, delete)
     def patchLayer(self, pat, name: str=None, description: str=None, visible: str=None):
-        patchLayer(pat, self.map_id, self.id, name, description, visible)
+        return patchLayer(pat, self.map_id, self.id, name, description, visible)
     def deleteLayer(self, pat):
-        deleteLayer(pat, self.map_id, self.id)
+        return deleteLayer(pat, self.map_id, self.id)
 
 # Class type for Datasets (created when data is uploaded to a map)
 # Has attributes for type, id, and name
